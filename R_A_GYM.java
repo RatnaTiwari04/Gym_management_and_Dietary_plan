@@ -16,7 +16,7 @@ public class R_A_GYM extends JFrame {
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/gym_diet", "root", "Ce50_Saltlake");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/gym_diet", "root", "Password");
         } catch (SQLException e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(this, "Failed to connect to database", "Error", JOptionPane.ERROR_MESSAGE);
